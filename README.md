@@ -6,7 +6,7 @@ Chuck Norris Jokes App is a [Spring Boot](https://spring.io/guides/gs/spring-boo
 ```
 git clone https://github.com/Priyanshu-git/spring5-jokes-app.git
 cd spring5-jokes-app
-mvn package
+mvnw package
 cd target
 java -jar spring5-jokes-app-0.0.1-SNAPSHOT.jar
 ```
