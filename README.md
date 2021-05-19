@@ -1,5 +1,17 @@
 # Chuck Norris Jokes App
 
+## Prerequisites to run the app
+The following items should be installed in your system:
+* Java 11 or newer (full JDK not a JRE).
+* Set JAVA_HOME variable to Java 11 directory (see [here](https://www.baeldung.com/java-home-on-windows-7-8-10-mac-os-x-linux) for reference)
+* git command line tool (https://help.github.com/articles/set-up-git)
+* Your preferred IDE (not required to run from terminal)
+    * Eclipse with the m2e plugin. Note: when m2e is available, there is an m2 icon in `Help -> About` dialog. If m2e is
+      not there, just follow the install process here: https://www.eclipse.org/m2e/
+    * [Spring Tools Suite](https://spring.io/tools) (STS)
+    * IntelliJ IDEA
+    * [VS Code](https://code.visualstudio.com)
+
 ## Running App locally
 Chuck Norris Jokes App is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line:
 
@@ -14,17 +26,6 @@ java -jar spring5-jokes-app-0.0.1-SNAPSHOT.jar
 You can then access Jokes App here: http://localhost:8080/
 
 ## Working with jokes-app in your IDE
-
-### Prerequisites
-The following items should be installed in your system:
-* Java 11 or newer (full JDK not a JRE).
-* git command line tool (https://help.github.com/articles/set-up-git)
-* Your preferred IDE
-    * Eclipse with the m2e plugin. Note: when m2e is available, there is an m2 icon in `Help -> About` dialog. If m2e is
-      not there, just follow the install process here: https://www.eclipse.org/m2e/
-    * [Spring Tools Suite](https://spring.io/tools) (STS)
-    * IntelliJ IDEA
-    * [VS Code](https://code.visualstudio.com)
 
 ### Steps:
 
